@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "name": "平静的工作台 · 读书会示例"
+  },
+  "today": {
+    "three": [
+      {
+        "t": "校对读书会报名页",
+        "est": 30
+      },
+      {
+        "t": "画活动海报初稿",
+        "est": 45
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "秋季读书会",
+      "stage": "开放报名前",
+      "status": "卡点",
+      "next": "确认教室后更新报名页",
+      "blocker": "场地尚待回复",
+      "tags": [
+        "活动"
+      ]
+    }
+  ],
+  "priority": {
+    "items": [
+      {
+        "id": "demo-room",
+        "title": "确认读书会教室",
+        "evidence": "开放报名之前，能先确认教室吗？",
+        "source": "邮件",
+        "project": "秋季读书会",
+        "next": "向场地老师确认教室",
+        "level": "P1",
+        "score": 85
+      }
+    ],
+    "counts": {
+      "P0": 0,
+      "P1": 1,
+      "P2": 0
+    }
+  },
+  "calendar": {
+    "status": "ok",
+    "today": {
+      "events": [
+        {
+          "start": "10:00",
+          "end": "10:30",
+          "minutes": 30,
+          "summary": "读书会碰头"
+        }
+      ],
+      "meeting_minutes": 30,
+      "meetings": 1
+    }
+  },
+  "workday": {
+    "available_min": 360
+  },
+  "inbox": {
+    "total": 1
+  }
+}
